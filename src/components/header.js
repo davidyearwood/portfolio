@@ -1,15 +1,20 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-function Header() {
+// returns an array of Links
+const Links = ({links}) => {
+  return links.map((link) => {
+    return <Link to={link.to}>{link.text}</Link>;
+  });
+};
+
+function Header({title, links}) {
   return (
     <header>
-      <h2>the personal website of</h2>
-      <h1>david yearwood</h1>
+      <p>the personal website of</p>
+      <h1>{title}</h1>
       <nav>
-        <Link to="/about">about</Link>
-        <Link to="/projects">projects</Link>
-        <Link to="/contact">contact</Link>
+        <Links links={links}/>
       </nav>
     </header>
   );
