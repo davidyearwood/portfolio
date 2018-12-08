@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import PropTypes from 'prop-types'; 
 
 // returns an array of Links
 const Links = ({links}) => {
@@ -19,5 +20,10 @@ function Header({title, links}) {
     </header>
   );
 }
+
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
+  links: PropTypes.array,
+};
 
 export default Header; 
