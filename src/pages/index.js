@@ -3,8 +3,10 @@ import Header from '../components/header';
 import Card from '../components/card'; 
 
 export default class Index extends React.Component {
-  render() {
-    let navLinks = [
+  constructor(props) {
+    super(props);
+
+    this.navLinks = [
       { 
         to: '/about', 
         text: 'about', 
@@ -21,10 +23,12 @@ export default class Index extends React.Component {
         key: 'contact',
       },
     ];
-
+  }
+  
+  render() {
     return (
       <div>
-        <Header title="david yearwood" links={navLinks}/>
+        <Header title="david yearwood" links={this.navLinks}/>
         <Card 
           imgs={[]}
           title="Calendar App"
