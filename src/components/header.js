@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 // returns an array of Links
 const Links = ({links}) => {
   return links.map((link) => {
-    return <Link to={link.to}>{link.text}</Link>;
+    return <Link to={link.to} key={link.key}>{link.text}</Link>;
   });
 };
 
