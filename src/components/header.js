@@ -1,8 +1,8 @@
-import React from "react"
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
 function Header() {
-  return(
+  return (
     <header>
       <h2>the personal website of</h2>
       <h1>david yearwood</h1>
