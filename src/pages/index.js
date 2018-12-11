@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Card from '../components/card'; 
+import Layout from '../components/Layout/Layout';
 
 export default class Index extends React.Component {
   constructor(props) {
@@ -27,7 +28,7 @@ export default class Index extends React.Component {
   
   render() {
     return (
-      <div>
+      <Layout>
         <Header title="david yearwood" links={this.navLinks}/>
         <Card 
           imgs={[]}
@@ -43,7 +44,7 @@ export default class Index extends React.Component {
             Redux, and code organization.
           </p>
         </Card>
-      </div>
+      </Layout>
     );
   }
 }
