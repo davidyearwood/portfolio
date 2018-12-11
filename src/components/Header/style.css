@@ -1,0 +1,18 @@
+.masthead {
+    text-align: center; 
+}
+
+.masthead__title,
+.masthead__eyebrow {
+    margin: 0;
+}
+
+.masthead__title {
+    color: #97DEFB; 
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.masthead__eyebrow {
+    text-transform: uppercase; 
+}

@@ -1,22 +1,14 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import PropTypes from 'prop-types'; 
-
-// returns an array of Links
-const Links = ({links}) => {
-  return links.map((link) => {
-    return <Link to={link.to} key={link.key}>{link.text}</Link>;
-  });
-};
+import Nav from '../Nav/Nav';
+import './style.css';
 
 function Header({title, links}) {
   return (
     <header className="masthead">
-      <p>the personal website of</p>
-      <h1>{title}</h1>
-      <nav>
-        <Links links={links}/>
-      </nav>
+      <p className="masthead__eyebrow">the personal website of</p>
+      <h1 className="masthead__title">{title}</h1>
+      <Nav links={links} />
     </header>
   );
 }

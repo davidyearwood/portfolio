@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__link {
+    margin-left: 1em;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
