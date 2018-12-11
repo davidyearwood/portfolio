@@ -30,6 +30,12 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <Header title="david yearwood" links={this.navLinks}/>
+        <div>
+          <p>
+            What’s up, the name is David. I am a Web Development 
+            Specialist currently migrating our LMS to a new home, and redesigning its UI. 
+          </p>
+        </div>
         <Card 
           imgs={[]}
           title="Calendar App"

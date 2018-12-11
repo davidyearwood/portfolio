@@ -4,6 +4,7 @@ nav {
 }
 
 .nav__link {
+    text-transform: capitalize;
     margin-left: 1em;
 }
 

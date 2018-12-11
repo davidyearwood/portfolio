@@ -1,5 +1,6 @@
 .masthead {
     text-align: center; 
+    margin-top: 3.157em;
 }
 
 .masthead__title,
@@ -14,5 +15,6 @@
 }
 
 .masthead__eyebrow {
+    font-weight: 400;
     text-transform: uppercase; 
 }
