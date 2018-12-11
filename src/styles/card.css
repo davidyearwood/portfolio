@@ -1,0 +1,17 @@
+.card {
+    border: 3px solid #97DEFB;
+    padding: 1.25rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.card__title {
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card__text {
+    color: #fff;
+}

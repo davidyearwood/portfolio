@@ -34,7 +34,7 @@ function Card({title, imgs, link, children}) {
   return (
     <div className="card">
       <header className="card__header">
-        <h1 className="card__title">{title}</h1>
+        <h3 className="card__title">{title}</h3>
         <div className="card__tools">
           <Images imgs={imgs} /> 
         </div>
