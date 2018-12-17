@@ -6,8 +6,20 @@
 	background-color: #caedfb;
 }
 
+.card__content {
+	margin-top: .422rem;
+}
+
+.card__icons {
+	margin-top: .64rem;
+}
+
 .card__icon-item {
-	width: 2.369rem; 
+	width: 1.777rem; 
+}
+
+.card__footer {
+	margin-top: 1rem; 
 }
 
 .card__title {
@@ -22,4 +34,5 @@
 .card__text {
 	color: #32416A;
 	margin: 0; 
+	font-size: 1.333rem;
 }
