@@ -1,5 +1,11 @@
 .btn {
-    color: #fff;
-    border: 1px solid #fff;
+    color: #32416A;
+    border: 3px solid #32416A;
     padding: .64rem 1rem;
+}
+
+.btn:hover {
+    margin: -4px 0 0 -4px; 
+    box-shadow: 4px 4px 0px #32416A;
+    text-decoration: none;
 }
