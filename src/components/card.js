@@ -6,13 +6,13 @@ import { Link } from 'gatsby';
 // {src: String, alt: String, className: String }
 const Images = ({imgs}) => (
   imgs.map((img) => (
-    <img src={img.src} alt={img.alt} className={img.className} />
+    <img src={img.src} alt={img.alt} className={'card__icon-item'} />
   ))
 );
 
 // link { to: string, type: String [A, LINK, BUTTON ], className: String }
 const Button = ({link}) => {
-  let classNames = 'btn ' + link.className; 
+  let classNames = 'btn'; 
   switch (link.type.toUpperCase()) {
     case 'A':
       return (
@@ -35,7 +35,7 @@ function Card({title, imgs, link, children}) {
     <div className="card">
       <header className="card__header">
         <h3 className="card__title">{title}</h3>
-        <div className="card__tools">
+        <div className="card__icons">
           <Images imgs={imgs} /> 
         </div>
       </header> 

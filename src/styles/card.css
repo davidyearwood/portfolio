@@ -1,20 +1,25 @@
 .card {
-    border: 3px solid #caedfb;
-    padding: 1.25rem;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #caedfb;
+	border: 3px solid #caedfb;
+	padding: 1rem;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #caedfb;
+}
+
+.card__icon-item {
+	width: 2.369rem; 
 }
 
 .card__title {
-    font-weight: 600;
-    margin: 0;
+	font-weight: 600;
+	margin: 0;
 }
 
 .card__title {
-    color: #32416A;
+	color: #32416A;
 }
 
 .card__text {
-    color: #32416A;
+	color: #32416A;
+	margin: 0; 
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../components/Header/Header';
 import Card from '../components/card'; 
 import Layout from '../components/Layout/Layout';
+import reactIcon from '../images/react-icon.svg';
+import reduxIcon from '../images/redux-icon.svg'; 
 
 export default class Index extends React.Component {
   constructor(props) {
@@ -27,6 +29,11 @@ export default class Index extends React.Component {
   }
   
   render() {
+    let calendarIcons = [
+      {src: reactIcon, alt: ''}, 
+      {src: reduxIcon, alt: ''}
+    ];
+
     return (
       <Layout>
         <Header title="david yearwood" links={this.navLinks}/>
@@ -37,7 +44,7 @@ export default class Index extends React.Component {
           </p>
         </div>
         <Card 
-          imgs={[]}
+          imgs={calendarIcons}
           title="Calendar App"
           link={{ 
             type: 'A', 

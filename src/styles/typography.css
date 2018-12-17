@@ -66,20 +66,7 @@ a:hover {
 /* State */
 
 @media (min-width: 600px) {
-    h1 {
-        font-size: calc(1.333 * 3.157em);
-    }
-    h2 {
-        font-size: calc(1.333 * 2.369em);
-    }
-    h3 {
-        font-size: calc(1.333 * 1.777em);
-    }
-    h4 {
-        font-size: calc(1.333 * 1.333em);
-    }
-    p,
-    a {
-        font-size: calc(1.333 * 1.25em);
+    html {
+        font-size: 1.333em;
     }
 }
