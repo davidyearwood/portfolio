@@ -94,6 +94,18 @@ export default class Index extends React.Component {
             </p>
           </Card>
         </section>
+        <section className="section">
+          <h2 className="section__title">About me</h2>
+          <p className="intro">
+            I’ve been a fan of the internet since using PHP 
+            for my senior project back in  college. Initially oscilliating 
+            between the back end and front end. After attending Smashing 
+            Conference 2018, I decided to focus only on the front end. Good-bye 
+            to the never ending debates on the perfect back-end 
+            language and hello to front-end framework wars. When I am 
+            not working between the hours of 9 to 5, I am  
+          </p>
+        </section>
       </Layout>
     );
   }
