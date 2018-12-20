@@ -1,13 +1,13 @@
 .card {
-	border: 3px solid #caedfb;
+	border: 3px solid #97DEFB;
 	padding: 1rem;
 	width: 100%;
 	box-sizing: border-box;
-	background-color: #caedfb;
+	background-color: #97DEFB;
 }
 
 .card__content {
-	margin-top: .422rem;
+	margin-top: .64rem;
 }
 
 .card__icons {
@@ -23,16 +23,16 @@
 }
 
 .card__title {
-	font-weight: 600;
 	margin: 0;
 }
 
 .card__title {
-	color: #32416A;
+	color: hsl(0, 0%, 0%);
+	font-weight: 600;
 }
 
 .card__text {
-	color: #32416A;
+	color: #000000;
 	margin: 0; 
 	font-size: 1.333rem;
 }
