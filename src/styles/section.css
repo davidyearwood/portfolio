@@ -1,0 +1,11 @@
+.section  {
+    margin-top: 1.333rem;
+}
+
+.section__title {
+    margin-top: 0;
+}
+
+.intro {
+    font-size: 1.333rem;
+}

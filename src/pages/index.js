@@ -4,6 +4,7 @@ import Card from '../components/card';
 import Layout from '../components/Layout/Layout';
 import reactIcon from '../images/react-icon.svg';
 import reduxIcon from '../images/redux-icon.svg'; 
+import '../styles/section.css';
 
 export default class Index extends React.Component {
   constructor(props) {
@@ -38,9 +39,10 @@ export default class Index extends React.Component {
       <Layout>
         <Header title="david yearwood" links={this.navLinks}/>
         <div>
-          <p>
+          <p className="intro">
             What’s up, the name is David. I am a Web Development 
-            Specialist currently migrating our LMS to a new home, and redesigning its UI. 
+            Specialist currently migrating our LMS to a new home, 
+            and redesigning its UI. 
           </p>
         </div>
         <section className="section">
@@ -64,7 +66,7 @@ export default class Index extends React.Component {
             title="Finance App"
             link={{ 
               type: 'A', 
-              to: 'https://github.com/dayvod/calendar-app', 
+              to: 'https://github.com/dayvod/c-75_project_1', 
               text: 'Read on Github',
             }}
           >
@@ -81,13 +83,14 @@ export default class Index extends React.Component {
             title="ISMIE’S Risk Management Symposium"
             link={{ 
               type: 'A', 
-              to: 'https://github.com/dayvod/calendar-app', 
-              text: 'Read on Github',
+              to: 'https://www.ismierms.com/', 
+              text: 'Go to website',
             }}
           >
             <p className="card__text">
-              I had the privilege to work on the first ever formed committee around 
-              this event, and build the mobile friendly website to promote it. 
+              I had the privilege to work on the first 
+              ever formed committee around this event, and 
+              build the mobile friendly website to promote it. 
             </p>
           </Card>
         </section>
