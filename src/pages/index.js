@@ -31,7 +31,7 @@ export default class Index extends React.Component {
   render() {
     let calendarIcons = [
       {src: reactIcon, alt: ''}, 
-      {src: reduxIcon, alt: ''}
+      {src: reduxIcon, alt: ''},
     ];
 
     return (
@@ -43,20 +43,54 @@ export default class Index extends React.Component {
             Specialist currently migrating our LMS to a new home, and redesigning its UI. 
           </p>
         </div>
-        <Card 
-          imgs={calendarIcons}
-          title="Calendar App"
-          link={{ 
-            type: 'A', 
-            to: 'https://github.com/dayvod/calendar-app', 
-            text: 'Read on Github',
-          }}
-        >
-          <p className="card__text">
+        <section className="section">
+          <h2 className="section__title">Projects</h2>
+          <Card 
+            imgs={calendarIcons}
+            title="Calendar App"
+            link={{ 
+              type: 'A', 
+              to: 'https://github.com/dayvod/calendar-app', 
+              text: 'Read on Github',
+            }}
+          >
+            <p className="card__text">
             I created a calendar application to learn React, 
             Redux, and code organization.
-          </p>
-        </Card>
+            </p>
+          </Card>
+          <Card 
+            imgs={calendarIcons}
+            title="Finance App"
+            link={{ 
+              type: 'A', 
+              to: 'https://github.com/dayvod/calendar-app', 
+              text: 'Read on Github',
+            }}
+          >
+            <p className="card__text">
+              A web application that allows users to manage 
+              portfolios of stocks. I used several shiny new 
+              technologies to build this site, and it took a longer time 
+              than expected. The backend, frontend, and design was all 
+              built by me. 
+            </p>
+          </Card>
+          <Card 
+            imgs={calendarIcons}
+            title="ISMIE’S Risk Management Symposium"
+            link={{ 
+              type: 'A', 
+              to: 'https://github.com/dayvod/calendar-app', 
+              text: 'Read on Github',
+            }}
+          >
+            <p className="card__text">
+              I had the privilege to work on the first ever formed committee around 
+              this event, and build the mobile friendly website to promote it. 
+            </p>
+          </Card>
+        </section>
       </Layout>
     );
   }
